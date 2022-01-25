@@ -8,12 +8,12 @@ import (
 
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/stdlib"
-	"gorm.io/gorm"
-	"gorm.io/gorm/callbacks"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/logger"
-	"gorm.io/gorm/migrator"
-	"gorm.io/gorm/schema"
+	"github.com/notofir/gorm"
+	"github.com/notofir/gorm/callbacks"
+	"github.com/notofir/gorm/clause"
+	"github.com/notofir/gorm/logger"
+	"github.com/notofir/gorm/migrator"
+	"github.com/notofir/gorm/schema"
 )
 
 type Dialector struct {
